@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GIFT VAULT TON Connect</title>
+  <script src="https://unpkg.com/@tonconnect/ui@2.0.0-beta.24/dist/tonconnect-ui.min.js"></script>
+</head>
+<body>
+  <h1 style="text-align:center;">GIFT VAULT Wallet Connect</h1>
+  <div id="tonconnect-button" style="margin: 20px auto; text-align: center;"></div>
+
+  <script>
+    const connector = new TonConnectUI({
+      manifestUrl: 'https://juehxbr123.github.io/name/tonconnect-manifest.json',
+      buttonRootId: 'tonconnect-button'
+    });
+  </script>
+</body>
+</html>
