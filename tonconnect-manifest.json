@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GIFT VAULT",
+  "description": "NFT кейсы с подарками в TON",
+  "url": "https://gift-vault.tilda.ws",
+  "icons": ["https://i.postimg.cc/8cNP5XZ2/icon.png"],
+  "bridge": {
+    "url": "https://bridge.tonapi.io/bridge"
+  },
+  "terms_of_use_url": "https://gift-vault.tilda.ws/terms",
+  "privacy_policy_url": "https://gift-vault.tilda.ws/privacy"
+}
